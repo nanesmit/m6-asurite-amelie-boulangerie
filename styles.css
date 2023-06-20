@@ -1,0 +1,100 @@
+*{
+    font-family: verdana, arial, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #F28095;
+    margin: 0;
+}
+
+header, footer {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    height: 150px;
+    background-color: #141a1a;
+    background-image: url("images/bowl.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+
+#grid-container{
+    width: 1000px;
+    margin: auto;
+    background-color: #FDFDFD;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
+
+nav{
+    width: 150px;
+    margin-top: 16px;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 16px;
+    margin: 8px auto 8px auto;
+    background-color: #E0E5DE;
+    color: #141A1A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #F28095;
+}
+/* COME BACK AND FIX THIS*/
+#bubbles{
+    background-color: #F28095;
+}
+/*END OF WHAT NEEDS FIXING*/
+
+main {
+    color: #542C1B;
+    padding-bottom: 16px;
+}
+
+#cafeimage{
+    float: left;
+}
+
+main p{
+    display: inline-block;
+    width: 50%;
+    margin-left: 32px;
+}
+
+main ul{
+    display: inline-block;
+    width: 50%;
+    margin-left: 16px;
+}
+
+address{
+    clear: both;
+    padding-top: 16px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    background-color: #AFAEB4;
+    padding: 8px 0px 8px 0px;
+}
